@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+            body { background: #ccc; }
+
+            .box {
+                position: static;
+                width: 29.7cm;
+                background: #fff;
+                color: #333;
+                padding: 40px;
+                margin-bottom: 0.5cm;
+                page-break-after: always;
+                }
+            #container1 {
+                kposition: absolute;
+                ktop: 0;
+                kleft: 0;
+                height: 900px;
+                page-break-inside: always;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="container1">
+            <div id="div1" class="box">
+                <h1>div 1</h1>
+                <p>This is div 1.</p>
+            </div>
+            <div id="div2" class="box">
+                <h1>div 2</h1>
+                <p>This is div 2.</p>
+            </div>
+        </div>
+    </body>
+</html>
